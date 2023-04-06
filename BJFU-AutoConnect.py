@@ -216,3 +216,5 @@ if __name__ == "__main__":
         time.sleep(2)  # 若未成功，等待2秒后再看下是否成功连接了
         isConnected()
     login()
+    print("10s后自动关闭")
+    time.sleep(10)
